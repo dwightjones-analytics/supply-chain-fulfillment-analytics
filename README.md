@@ -161,3 +161,10 @@ Important limitations include historical coverage, incomplete delivery records f
 **Author:** Dwight Jones
 
 **Focus Areas:** Supply Chain Analytics | Operations Analytics | Business Intelligence | Continuous Improvement
+
+
+## Executive Dashboard
+
+![Supply Chain Fulfillment & Delivery Performance Executive Dashboard](tableau/Executive_Dashboard.png)
+
+[Download the Tableau Packaged Workbook](tableau/Supply_Chain_Fulfillment_Dashboard.twbx)
