@@ -168,3 +168,35 @@ Important limitations include historical coverage, incomplete delivery records f
 ![Supply Chain Fulfillment & Delivery Performance Executive Dashboard](tableau/Executive_Dashboard.png)
 
 [Download the Tableau Packaged Workbook](tableau/Supply_Chain_Fulfillment_Dashboard_RECOVERED.twbx)
+
+
+## 10. Executive Findings & Business Recommendations
+
+### Finding 1: Overall Delivery Reliability
+- Of 99,441 orders, 96,478 were delivered, representing a 97.02% completion rate.
+- Among 96,470 evaluated deliveries, 93.23% arrived on or before their estimated delivery dates.
+- The remaining 6,534 deliveries were late.
+
+**Recommendation:** Establish a weekly delivery-performance scorecard tracking on-time delivery, late-order volume, and exceptions requiring corrective action.
+
+### Finding 2: Transportation Is a Major Performance Bottleneck
+- Late deliveries averaged 669.32 hours between carrier handoff and customer delivery, compared with 191.64 hours for on-time deliveries.
+- Approval-to-carrier processing also took longer for late deliveries: 133.78 hours versus 63.68 hours.
+
+**Recommendation:** Investigate carrier transit delays, fulfillment handoff performance, and exception-management procedures. Prioritize root-cause analysis before implementing corrective actions.
+
+### Finding 3: Geographic Service Gaps
+- Alagoas (AL) recorded a 78.59% on-time delivery rate across 397 evaluated orders.
+- Maranhão (MA) recorded 82.57% across 717 orders.
+- Both were below the overall benchmark of 93.23%.
+
+**Recommendation:** Prioritize geographic service reviews in consistently underperforming states, while considering shipment volume and sample-size limitations.
+
+### Finding 4: Freight Cost Visibility
+- Total freight charges were approximately R$2.25 million.
+- Freight charges represented approximately 16.57% of product value.
+
+**Recommendation:** Develop freight-cost monitoring by region, shipment profile, and delivery outcome to identify potential opportunities for transportation cost optimization.
+
+### Analytical Limitations
+This analysis uses historical public Brazilian e-commerce data. Findings identify operational patterns and associations, not proven causes. State-level sample sizes vary, and results should not be interpreted as representing The Home Depot's operations.
